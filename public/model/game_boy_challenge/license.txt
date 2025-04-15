@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Boy Challenge
+* source:	https://sketchfab.com/3d-models/game-boy-challenge-a91c7818d2aa4331aabb3962b29548be
+* author:	LisHard (https://sketchfab.com/lishard4)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Boy Challenge" (https://sketchfab.com/3d-models/game-boy-challenge-a91c7818d2aa4331aabb3962b29548be) by LisHard (https://sketchfab.com/lishard4) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
