@@ -18,16 +18,15 @@ const [user, setUser] = useState("");
      
 
   return (
-       <nav style={{padding:'0px 30px'}} className='w-full h-14 flex items-center justify-between fixed  z-100  top-0  '>
+       <nav style={{padding:'0px 30px'}} className='w-full h-14 flex items-center justify-between fixed  z-100  top-0'>
            <div>
-            LOGO
+
            </div>
        <div className='flex gap-5  items-center justify-center'>
         <div className='flex gap-10'>
           <Link to={"/dashboard"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/contact"}>Contact</Link>
-          <Link to={"/team"}>Team</Link>
+          <Link to={"/about"}>Heatmaps</Link>
+        
         </div>
           <div className='  h-10 w-10 bg-blue-300 rounded-full overflow-hidden'>
           {user ? (

@@ -26,12 +26,15 @@ function Loader() {
        })
 
        tl.to(outRef.current,{
-           opacity:0,
-           display:"hidden",
+          opacity:0,
         delay:0.8,
         ease:"power3"
-
      })
+     tl.to(outRef.current,{
+      display :"hidden",
+    delay:0.8,
+    ease:"power3"
+ })
     
 
    })

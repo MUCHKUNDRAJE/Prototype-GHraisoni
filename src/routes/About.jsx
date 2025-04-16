@@ -1,18 +1,25 @@
-    import React from 'react'
-import Nav from '../components/resusable/nav'
-import Loader from '../components/resusable/transition-loader'
+import React, { useState } from 'react';
+import Nav from '../components/resusable/nav';
+import Panel from '../components/resusable/controlpanel';
+import NagpurHeatmap from '../components/resusable/heatmap';
+import Drag from '../components/resusable/drag';
 
-    
-    function About() {
-      return (
-        <>
-        <Loader/>
-        <div className='h-screen w-full bg-[#f1eeee] flex items-center justify-center'>
-          <Nav/>
-               <h1 id='shell' className='text-8xl'>About Page</h1>
-        </div>
-        </>
-      )
-    }
-    
-    export default About
+function About() {
+  const [selectedCity, setSelectedCity] = useState('');
+  const [showAddPopup, setShowAddPopup] = useState(false);
+
+  const handleAddClick = () => {
+    setShowAddPopup(!true);
+  };
+
+  return (
+    <div className='h-screen w-full bg-[#F1EEEE]'>
+      <Nav />
+      <Panel selectedCity={selectedCity} setSelectedCity={setSelectedCity} />
+      <NagpurHeatmap selectedCity={selectedCity} showAddPopup={showAddPopup} />
+      <Drag onAddClick={handleAddClick} />
+    </div>
+  );
+}
+
+export default About;
